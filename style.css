@@ -1,0 +1,38 @@
+
+#food_item{
+    padding: 0 10%;
+}
+.property{
+    border-radius: 8px;
+    text-align: center;
+    background-color: #ddd;
+}
+.food{
+    margin-bottom: 20px;
+}
+.food_name{
+    padding: 10px;
+    color: #a98019;
+}
+.food_img img{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.ingredients_area{
+    background-color: #ddd;
+}
+.ingredients_details{
+    padding: 8%;
+}
+.ingredients_details ul {
+    list-style: none;
+}
+.ingredients_img{
+    width: 100%;
+}
+.error_message{
+    padding: 5%;
+    background-color: #e86d6d;
+    border-radius: 8px;
+    text-align: center;
+}

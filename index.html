@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUNGRY MONSTER</title>
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--  font awesome -->
+    <script src="https://kit.fontawesome.com/1d2d55d700.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <form class="col-md-6 m-auto py-5">
+        <div class="input-group mb-3">
+            <input id="search_city" value="" type="text" class="form-control"
+                placeholder="Enter a food item that you desire ...">
+            <div class="input-group-append">
+                <button id="search-button" type="button" class="btn btn-danger">Search</button>
+            </div>
+        </div>
+    </form>
+
+    <div class="container">
+        <div  class="row">
+            <div class="col-md-9">
+                <div id="food_item" class="row">
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row" id="single_ingredients">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
